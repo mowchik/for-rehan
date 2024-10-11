@@ -58,8 +58,16 @@
 </style>
 
 <div class="button1-container">
-  <button class="yes1-btn btn js-yes-btn" onclick="window.open('https://wa.me/+6283150982525', '_blank')">Klik untuk menuju ke WA ku!</button>
+  <button class="yes1-btn btn js-yes-btn" id="wa-btn">Klik untuk menuju ke WA ku!</button>
 </div>
+
+<script>
+  const phoneNumber = "+6283150982525"; // Replace with your phone number
+  const waUrl = `https://wa.me/qr/code?phone=${phoneNumber}`;
+  document.getElementById("wa-btn").addEventListener("click", () => {
+    window.open(https://wa.me/qr/JGFDT7TNDPEOF1, "_blank");
+  });
+</script>
     <div class="cssload-main">
       <div class="cssload-heart">
         <span class="cssload-heartL"></span>
